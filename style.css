@@ -5,7 +5,7 @@
     font-family: "Roboto", sans-serif;
 }
 html {
-    background-color: turquoise;
+    background-color: #00308f;
 }
 body {
     min-height: 100vh;
@@ -15,11 +15,10 @@ p {
     font-size: 1.2em;
 }
 .lightblue {
-    background-color: lightblue;
+    background-color: #72a0c1;
     border-radius: 15px;
 }
 #navbar {
-    background-color: lightblue;
     min-width: 100wh;
     font-size: 2em;
     position: -webkit-sticky;
@@ -27,6 +26,7 @@ p {
     top: 0;
     padding: 0.5em;
     border-radius: 0;
+    border-bottom: 1px solid #002244;
 }
 nav ul {
     display: flex;
@@ -84,12 +84,10 @@ header h1 {
 
 #about {
     padding: 10px;
-    background-color: lightblue;
     border-radius: 20px;
 }
 
 aside {
-    background-color: lightblue;
     position: -webkit-sticky;
     position: sticky;
     top: 275px;
@@ -97,4 +95,15 @@ aside {
     padding: 10px;
     border-radius: 15px;
     /* width: 100%; */
+}
+#footer {
+    border-radius: 0px;
+    border-top: #002244 1px solid;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+}
+
+#contact-us {
+    min-height: 100vh;
 }
