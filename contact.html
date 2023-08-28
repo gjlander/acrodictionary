@@ -22,18 +22,26 @@
             </ul>
         </nav>
         <main id="contact-us" class="padding">
-            <form action="mailto:garrett.jlander@gmail.com">
+            <form
+                action="mailto:garrett.jlander@gmail.com"
+                method="post"
+                enctype="text/plain"
+                class="lightblue padding"
+            >
                 <input type="text" placeholder="Name" />
                 <br />
                 <textarea
-                    placeholder="This website is so great!"
+                    placeholder="Write your message here..."
                     name="message"
                     id="message"
                     cols="30"
                     rows="10"
+                    class="darkblue"
                 ></textarea>
                 <br />
-                <button type="submit" value="Send">Submit</button>
+                <button type="submit" value="Send" class="darkblue">
+                    Submit
+                </button>
             </form>
         </main>
         <footer id="footer" class="lightblue">

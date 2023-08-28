@@ -110,6 +110,7 @@ aside {
 #contact-us {
     min-height: 100vh;
 }
+
 @media (max-width: 480px) {
     html {
         font-size: 10px;
